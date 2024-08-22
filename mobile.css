@@ -1,0 +1,77 @@
+:root {
+    /* ### Primary */
+    --Bright-orange: hsl(31, 77%, 52%);
+    --Dark-cyan: hsl(184, 100%, 22%);
+    --Very-dark-cyan: hsl(179, 100%, 13%);
+    /*### Neutral*/
+    --Transparent-white: hsla(0, 0%, 100%, 0.75);
+    --Very-light-gray: hsl(0, 0%, 95%);
+  }
+  
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body{
+    font-size: 66px;
+    color: var(--Very-light-gray);
+    background-color: var(--Very-light-gray);
+  }
+  
+  .cards-container{
+    margin: 220px 60px;
+    border: 5px solid currentColor;
+    overflow: hidden;
+    border-radius: 30px;
+  }
+  
+  .cards-container div{
+    padding: 120px;
+  }
+  
+  .cards-container h2 {
+    font-family: 'Big Shoulders Display';
+    font-weight: 600;
+    padding: 70px 0;
+  }
+  
+  .cards-container p {
+    font-family: 'Lexend Deca';
+    font-weight: 200;
+    font-size: 15px;
+    color: var(--Transparent-white);
+    padding: 0 0 80px;
+    line-height: 65px;
+  }
+  
+  .cards-container input{
+    font-family: 'Lexend Deca';
+    font-weight: 400;
+    font-size: 40px;
+    color: var(--cardbg-color);
+    background-color: var(--Very-light-gray);
+    padding: 30px 75px;
+    border: 0 solid currentColor;
+    border-radius: 70px;
+  }
+  
+  .cards-container img{
+    width: 160px;
+  }
+  
+  .sedan-card{
+    --cardbg-color: var(--Bright-orange);
+    background-color: var(--Bright-orange);
+  }
+  
+  .suv-card{
+    --cardbg-color: var(--Dark-cyan);
+    background-color: var(--Dark-cyan);
+  }
+  
+  .luxury-card{
+    --cardbg-color: var(--Very-dark-cyan);
+    background-color: var(--Very-dark-cyan);
+  }

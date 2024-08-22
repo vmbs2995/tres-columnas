@@ -1,0 +1,36 @@
+.cards-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    max-width: 930px;
+    max-height: 600px;
+    margin: auto;
+    margin-top: 150px;
+    border-radius: 20px;
+}
+
+.cards-container div{
+    max-width: 310px;
+    padding: 30px 50px 60px 50px;
+}
+
+.cards-container h2{
+    font-size: 40px;
+    padding: 25px 0;
+}
+
+.cards-container p{
+    padding: 0 0 50px;
+    line-height: 25px;
+}
+
+.cards-container input{
+    font-size: 15px;
+    padding: 13px 25px;
+    border: 0 solid currentColor;
+    border-radius: 70px;
+}
+
+.cards-container img{
+    width: 65px;
+}
